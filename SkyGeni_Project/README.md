@@ -16,6 +16,8 @@ This project includes:
   * Insights  
   * 2 custom metrics  
   * decision engine output (driver ranking)
+* System Design flowchart
+* README.md 
 
 **How to Run:**
 
@@ -25,7 +27,7 @@ Install dependencies:
 * Numpy  
 * matplotlib
 
-Open skygeni\_main.ipynb and run top to bottom.
+Open skygeni\_main.ipynb and run top to bottom. Data file not added, place in repo to run
 
 ### **1\. Problem Statement**
 
