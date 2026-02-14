@@ -95,6 +95,7 @@ The final decision engine output is a ranked list of top drivers across lead sou
 * If SkyGeni were to productize this work, it  would exist as an automated pipeline connected to the customer’s CRM (Salesforce or HubSpot) that runs on a regular schedule and produces a dashboard plus alerts.  
 * The simplest version would ingest deal records daily, clean and standardize fields, compute derived features like deal duration and quarter labels, and then compute the same win-rate tables, stall-rate metrics, and driver rankings automatically. The system would run checks daily (because stalling is time-sensitive), and would run driver analysis weekly or at least once per quarter.  
 * The output could produce alerts like deal rate or inbound dips. It could also generate a weekly ranked list of drivers like the decision engine output above. In a real product, this would likely be delivered via dashboard cards, notifications, and drill-down links to the underlying deals driving the change.
+* Flowchart included in repo (SystemDesign.png) for ref/visual ease
 
 ### **7\. Limitations**
 
