@@ -52,9 +52,9 @@ Open skygeni\_main.ipynb and run top to bottom.
 
 ### **2\. Key Insights**
 
-1. ### **The sales cycle slowed down massively in Q2:** One of the clearest signals in the data is deal duration. When I computed deal duration as the number of days between created\_date and closed\_date, the company-wide median deal duration jumped from around 63 days in 2024Q1 to around 86 days in 2024Q2. This is a big shift and suggests that deals were stalling more, the sales cycle was slowing down, or more deals were getting “stuck” in late stages. This is important because a CRO can look at pipeline volume and feel reassured that deals exist, but if those deals are taking much longer to progress, fewer will close successfully within the quarter and more will end up lost.
+1.  **The sales cycle slowed down massively in Q2:** One of the clearest signals in the data is deal duration. When I computed deal duration as the number of days between created\_date and closed\_date, the company-wide median deal duration jumped from around 63 days in 2024Q1 to around 86 days in 2024Q2. This is a big shift and suggests that deals were stalling more, the sales cycle was slowing down, or more deals were getting “stuck” in late stages. This is important because a CRO can look at pipeline volume and feel reassured that deals exist, but if those deals are taking much longer to progress, fewer will close successfully within the quarter and more will end up lost.
 
-   ### I originally tried looking at win rate by duration buckets (0–30, 31–60, 61–90, 91–120), expecting a clean monotonic trend (longer deals lose more). But it wasn’t very clean, and the bucket approach was hard to interpret.
+    I originally tried looking at win rate by duration buckets (0–30, 31–60, 61–90, 91–120), expecting a clean monotonic trend (longer deals lose more). But it wasn’t very clean, and the bucket approach was hard to interpret.
 
 2. **Inbound is the biggest lead-source driver of the decline:** After establishing that deals slowed down overall, I looked at where the win rate dropped. I focused on exploring the most interpretable breakdowns first: lead source, industry, and sales rep. I also looked at region and deal stage as potential explanations, but those ended up being less helpful as core drivers.  
    Lead source analysis showed:  
